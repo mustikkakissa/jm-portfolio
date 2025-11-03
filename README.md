@@ -162,4 +162,4 @@ Portfolio/
 
 For deployment issues, see [DEPLOYMENT.md](DEPLOYMENT.md)
 For media file setup, see [MEDIA_GUIDE.md](MEDIA_GUIDE.md)
-
+ 
