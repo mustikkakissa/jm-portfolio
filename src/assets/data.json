@@ -46,6 +46,35 @@
         }
       ]
     },
+    "models": {
+      "title": "3D Models",
+      "list": [
+        {
+          "title": "Character Model (remeshed)",
+          "year": "2024",
+          "description": "A remeshed character model to fit into GH.",
+          "modelPath": "models/character_remeshed.fbx",
+          "specs": [],
+          "skills": ["Blender", "Character Modeling"]
+        },
+        {
+          "title": "RIB Boat Model",
+          "year": "2024",
+          "description": "A realistic rigid inflatable boat (RIB) model.",
+          "modelPath": "models/rib.fbx",
+          "specs": [],
+          "skills": ["Blender", "Hard Surface Modeling"]
+        },
+        {
+          "title": "Donut Model",
+          "year": "2024",
+          "description": "Donut model",
+          "modelPath": "models/donut.fbx",
+          "specs": [],
+          "skills": ["Blender"]
+        }
+      ]
+    },
     "skills": {
       "title": "Skills",
       "categories": {
