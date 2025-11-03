@@ -1,8 +1,36 @@
-# Portfolio
+# Game Design Portfolio
 
-A React portfolio website deployed to GitHub Pages.
+A modern, responsive portfolio website built for Aalto University's Game Design and Production Master's Program application. Showcases projects, skills, and experience in game development, 3D art, and software engineering.
 
-## Development
+## Features
+
+- 🎨 Modern, dark-themed design with gradient animations
+- 📱 Fully responsive (mobile, tablet, desktop)
+- 🖼️ Support for images and videos in project showcases
+- 🎯 Smooth scrolling navigation
+- ⚡ Fast loading with Vite
+- 🎮 Tailored for game development portfolio presentation
+
+## Portfolio Sections
+
+- **Hero**: Introduction with animated background
+- **About**: Professional background and education
+- **Projects**: Detailed project showcases with media support
+- **Skills**: Categorized technical skills
+- **Motivation**: Application motivation statement
+
+## Quick Start
+
+### Adding Your Media Files
+
+1. Place your project images/videos in `public/images/`:
+   - `horror-prototype.jpg` (or .mp4)
+   - `character.jpg`
+   - `diy.jpg`
+
+See [MEDIA_GUIDE.md](MEDIA_GUIDE.md) for detailed instructions on media formats and optimization.
+
+### Development
 
 ```bash
 # Install dependencies
@@ -17,6 +45,14 @@ npm run build
 # Preview production build
 npm run preview
 ```
+
+### Customizing Content
+
+Edit `src/assets/data.json` to update your:
+- Name and title
+- About information
+- Projects and skills
+- Motivation statement
 
 ## Manual Deployment to GitHub Pages
 
@@ -48,7 +84,8 @@ npm run preview
    git init
    git add -A
    git commit -m "Deploy"
-   git push -f https://github.com/mustikkakissa/jm-portfolio.git main:gh-pages
+   git branch -M main
+   git push -f git@github.com:mustikkakissa/jm-portfolio.git main:gh-pages
    cd ..
    ```
 
@@ -76,7 +113,8 @@ cd dist
 git init
 git add -A
 git commit -m "Deploy"
-git push -f https://github.com/mustikkakissa/jm-portfolio.git main:gh-pages
+git branch -M main
+git push -f git@github.com:mustikkakissa/jm-portfolio.git main:gh-pages
 cd ..
 ```
 
@@ -86,8 +124,42 @@ cd ..
 - The main branch contains source code
 - The gh-pages branch contains built files for deployment
 
+## Deployment
+
+The portfolio includes automatic deployment via GitHub Actions. See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed instructions.
+
+### Quick Deploy
+
+1. Update repository name in `vite.config.js`
+2. Enable GitHub Pages in repository settings
+3. Push to main branch - automatic deployment!
+
 ## Built With
 
 - React 19
 - Vite 7
+- CSS3 with modern animations
+- Responsive design principles
+
+## Project Structure
+
+```
+Portfolio/
+├── public/
+│   └── images/          # Your project media files
+├── src/
+│   ├── App.jsx          # Main portfolio component
+│   ├── App.css          # Styles and animations
+│   ├── assets/
+│   │   └── data.json    # Portfolio content
+├── .github/
+│   └── workflows/
+│       └── deploy.yml   # Automatic deployment
+└── dist/                # Built files (generated)
+```
+
+## Support
+
+For deployment issues, see [DEPLOYMENT.md](DEPLOYMENT.md)
+For media file setup, see [MEDIA_GUIDE.md](MEDIA_GUIDE.md)
 

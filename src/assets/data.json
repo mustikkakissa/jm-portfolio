@@ -1,0 +1,65 @@
+{
+    "hero": {
+      "name": "Jere M.",
+      "title": "Senior Software Engineer exploring game development",
+      "cta": "View my work"
+    },
+    "about": {
+      "title": "About Me",
+      "paragraphs": [
+        "I’m a software engineer with a multidisciplinary background in both mechanical and ICT engineering. I have degrees in Mechanical Engineering (2013–2016) and ICT Engineering (2019–2022).",
+        "I have four years of experience in mechanical design at Etteplan, where I worked on tecnical design of paper mill machines, and five years at Alma Media in the Iltalehti mobile application team.",
+        "While my professional focus has been in mobile development, my true passion lies in creating immersive experiences that combine storytelling, technology, and interactivity. Game development offers the ideal platform to bring these worlds together."
+      ]
+    },
+    "projects": {
+      "title": "Projects",
+      "list": [
+        {
+          "title": "Horror-Survival Prototype",
+          "year": "Work in progress",
+          "role": "Game Design, Programming, 3D Art",
+          "summary": "A personal Unity-based horror-survival project focusing on atmosphere, procedural generation, and scalable architecture. The game blends exploration, tension, and environmental storytelling inspired by Silent Hill and SCP aesthetics.",
+          "skills": ["Unity", "C#", "Blender", "Substance Painter"],
+          "highlights": ["Procedural generation", "Day-night cycle", "Dynamic enemy behavior"],
+          "media": ["kissavideo.mp4"]
+        },
+        {
+          "title": "Blender Character Modeling",
+          "year": "2024",
+          "role": "3D Sculpting, Retopology, Texturing",
+          "summary": "A study project to learn the full 3D asset creation pipeline from sculpting to game integration. Focused on clean topology and realistic texturing for Unity compatibility.",
+          "skills": ["Blender", "Substance Painter", "Unity Integration"],
+          "media": ["kissa1.jpg"]
+        },
+        {
+          "title": "DIY & Maker Projects",
+          "year": "Ongoing",
+          "role": "Designer & Maker",
+          "summary": "Examples of my hands-on technical curiosity and problem-solving ability outside software development.",
+          "examples": [
+            "Built a custom 3D printer from scratch using Arduino, RAMPS 1.4, and Marlin firmware.",
+            "Experimented with small electronics and woodworking projects."
+          ],
+          "skills": ["Hardware Prototyping", "Electronics", "Fabrication"],
+          "media": ["kissa2.jpeg", "kissa3.jpg", "kissa.jpg"]
+        }
+      ]
+    },
+    "skills": {
+      "title": "Skills",
+      "categories": {
+        "Programming": ["React Native", "JavaScript", "TypeScript", "C#", "Python"],
+        "Game Development": ["Unity", "Gameplay Programming", "Procedural Generation"],
+        "3D Art": ["Blender", "Substance Painter", "Retopology", "Texturing"],
+        "Project Management": ["Agile", "Team Coordination", "CI/CD", "Version Control (Git)"]
+      }
+    },
+    "motivation": {
+      "title": "Motivation",
+      "paragraphs": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      ]
+    }
+  }
+  
