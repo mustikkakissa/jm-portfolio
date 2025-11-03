@@ -753,8 +753,8 @@ body {
   }
 
   .hero-section {
-    min-height: 50vh;
-    height: 50vh;
+    min-height: 100vh;
+    height: 100vh;
   }
 
   .hero-name {
@@ -763,6 +763,22 @@ body {
 
   .hero-title {
     font-size: 1rem;
+  }
+
+  .mouse {
+    width: 20px;
+    height: 32px;
+  }
+
+  .wheel {
+    width: 2px;
+    height: 6px;
+    margin-top: 6px;
+  }
+
+  .arrow span {
+    width: 8px;
+    height: 8px;
   }
 
   .section {
