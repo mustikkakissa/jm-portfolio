@@ -35,10 +35,25 @@ function App() {
     }
   }
 
+  const getYouTubeEmbedUrl = (url) => {
+    const youtubeRegex = /(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/\s]{11})/
+    const match = url.match(youtubeRegex)
+    return match ? `https://www.youtube.com/embed/${match[1]}` : null
+  }
+
+  const isYouTubeUrl = (url) => {
+    return url.includes('youtube.com') || url.includes('youtu.be')
+  }
+
   const openLightbox = (mediaPath) => {
-    const isVideo = mediaPath.match(/\.(mp4|webm|ogg)$/i)
-    setLightboxMedia(mediaPath)
-    setLightboxType(isVideo ? 'video' : 'image')
+    if (isYouTubeUrl(mediaPath)) {
+      setLightboxMedia(mediaPath)
+      setLightboxType('youtube')
+    } else {
+      const isVideo = mediaPath.match(/\.(mp4|webm|ogg)$/i)
+      setLightboxMedia(mediaPath)
+      setLightboxType(isVideo ? 'video' : 'image')
+    }
   }
 
   const closeLightbox = () => {
@@ -67,7 +82,24 @@ function App() {
   }, [lightboxMedia])
 
   const renderMedia = (mediaPath) => {
+    const isYoutube = isYouTubeUrl(mediaPath)
     const isVideo = mediaPath.match(/\.(mp4|webm|ogg)$/i)
+    
+    if (isYoutube) {
+      const embedUrl = getYouTubeEmbedUrl(mediaPath)
+      return (
+        <div className="media-wrapper youtube-wrapper">
+          <iframe
+            className="project-media youtube-embed"
+            src={embedUrl}
+            title="YouTube video"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+      )
+    }
     
     if (isVideo) {
       return (
@@ -298,7 +330,16 @@ function App() {
             ✕
           </button>
           <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>
-            {lightboxType === 'video' ? (
+            {lightboxType === 'youtube' ? (
+              <iframe
+                className="lightbox-media youtube-lightbox"
+                src={getYouTubeEmbedUrl(lightboxMedia)}
+                title="YouTube video"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            ) : lightboxType === 'video' ? (
               <video 
                 className="lightbox-media" 
                 controls 

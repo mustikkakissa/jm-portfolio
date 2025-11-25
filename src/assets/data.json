@@ -22,7 +22,7 @@
           "summary": "A personal Unity-based horror-survival project focusing on atmosphere, procedural generation, and scalable architecture. The game blends exploration, tension, and environmental storytelling inspired by Silent Hill and SCP aesthetics.",
           "skills": ["Unity", "C#", "Blender", "Substance Painter"],
           "highlights": ["Procedural generation", "Day-night cycle", "Dynamic enemy behavior"],
-          "media": ["WIP_pt1.mp4", "WIP_pt2.mp4"]
+          "media": ["https://youtu.be/eUhiYVZVugU"]
         },
         {
           "title": "Unity Terrain Feature Painter Tool",
@@ -30,7 +30,7 @@
           "role": "Tool Development, Editor Scripting",
           "summary": "Custom Unity Editor tool for procedural terrain decoration. Enables efficient placement of environmental features based on terrain properties, significantly speeding up level design workflow.",
           "skills": ["Unity", "C#", "Editor Scripting", "Procedural Generation"],
-          "media": ["TerrainTool480p.mp4"]
+          "media": ["https://youtu.be/LKUeW6k7UQo"]
         },
         {
           "title": "Character Modeling Workflow",
