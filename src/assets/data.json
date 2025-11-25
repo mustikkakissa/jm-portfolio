@@ -22,56 +22,55 @@
           "summary": "A personal Unity-based horror-survival project focusing on atmosphere, procedural generation, and scalable architecture. The game blends exploration, tension, and environmental storytelling inspired by Silent Hill and SCP aesthetics.",
           "skills": ["Unity", "C#", "Blender", "Substance Painter"],
           "highlights": ["Procedural generation", "Day-night cycle", "Dynamic enemy behavior"],
-          "media": ["kissavideo.mp4"]
+          "media": ["WIP_pt1.mp4", "WIP_pt2.mp4"]
         },
         {
-          "title": "Blender Character Modeling",
+          "title": "Unity Terrain Feature Painter Tool",
+          "year": "2024",
+          "role": "Tool Development, Editor Scripting",
+          "summary": "Custom Unity Editor tool for procedural terrain decoration. Enables efficient placement of environmental features based on terrain properties, significantly speeding up level design workflow.",
+          "skills": ["Unity", "C#", "Editor Scripting", "Procedural Generation"],
+          "media": ["TerrainTool480p.mp4"]
+        },
+        {
+          "title": "Character Modeling Workflow",
           "year": "2024",
           "role": "3D Sculpting, Retopology, Texturing",
-          "summary": "A study project to learn the full 3D asset creation pipeline from sculpting to game integration. Focused on clean topology and realistic texturing for Unity compatibility.",
-          "skills": ["Blender", "Substance Painter", "Unity Integration"],
-          "media": ["kissa1.jpg"]
+          "summary": "Complete character creation pipeline from high-poly sculpting to game-ready asset. Demonstrates full understanding of topology, UV mapping, and optimization for real-time rendering.",
+          "skills": ["Blender", "Sculpting", "Retopology", "UV Mapping"],
+          "media": ["Character_blender.mp4"]
         },
         {
-          "title": "DIY & Maker Projects",
-          "year": "Ongoing",
-          "role": "Designer & Maker",
-          "summary": "Examples of my hands-on technical curiosity and problem-solving ability outside software development.",
-          "examples": [
-            "Built a custom 3D printer from scratch using Arduino, RAMPS 1.4, and Marlin firmware.",
-            "Experimented with small electronics and woodworking projects."
-          ],
-          "skills": ["Hardware Prototyping", "Electronics", "Fabrication"],
-          "media": ["kissa2.jpeg", "kissa3.jpg", "kissa.jpg"]
-        }
-      ]
-    },
-    "models": {
-      "title": "3D Models",
-      "list": [
-        {
-          "title": "Character Model (remeshed)",
+          "title": "Bunker - Hard Surface Modeling",
           "year": "2024",
-          "description": "A remeshed character model to fit into GH.",
-          "modelPath": "models/character_remeshed.fbx",
-          "specs": [],
-          "skills": ["Blender", "Character Modeling"]
+          "role": "3D Modeling, Texturing",
+          "summary": "Modular bunker asset showcasing hard surface modeling techniques and PBR texturing workflow. From blocking out in Blender to detailed material work in Substance Painter.",
+          "skills": ["Blender", "Substance Painter", "Hard Surface Modeling", "PBR Texturing"],
+          "media": ["Bunker_blender_gif.gif", "Bunker_substance_gif.gif"]
         },
         {
           "title": "RIB Boat Model",
           "year": "2024",
-          "description": "A realistic rigid inflatable boat (RIB) model.",
-          "modelPath": "models/rib.fbx",
-          "specs": [],
-          "skills": ["Blender", "Hard Surface Modeling"]
+          "role": "3D Modeling, Texturing",
+          "summary": "Realistic rigid inflatable boat with attention to detail in both modeling and material definition. Complete workflow demonstrating clean topology and realistic wear and tear in texturing.",
+          "skills": ["Blender", "Substance Painter", "Hard Surface Modeling"],
+          "media": ["RIB_blender.gif", "RIB_Substance.gif"]
         },
         {
-          "title": "Donut Model",
+          "title": "Pier Environment Asset",
           "year": "2024",
-          "description": "Donut model",
-          "modelPath": "models/donut.fbx",
-          "specs": [],
-          "skills": ["Blender"]
+          "role": "3D Modeling, Environment Design",
+          "summary": "Modular pier structure for maritime environments. Focused on creating reusable, game-optimized architecture pieces with proper edge flow and LOD considerations.",
+          "skills": ["Blender", "Environment Modeling", "Modular Design"],
+          "media": ["Pier_blender.gif"]
+        },
+        {
+          "title": "Game Props - Flashlight & Scanner",
+          "year": "2024",
+          "role": "3D Modeling, Texturing",
+          "summary": "Interactive game props created for the horror prototype. Showcases ability to create detailed, game-ready assets with focus on material definition and functional design.",
+          "skills": ["Substance Painter", "PBR Texturing", "Prop Modeling"],
+          "media": ["Flashlight_substance.gif", "Scanner_substance.gif"]
         }
       ]
     },

@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import portfolioData from './assets/data.json'
-import ModelViewer from './ModelViewer'
 
 function App() {
   const [activeSection, setActiveSection] = useState('hero')
@@ -10,7 +9,7 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['hero', 'about', 'projects', 'models', 'skills', 'motivation']
+      const sections = ['hero', 'about', 'projects', 'skills', 'motivation']
       const scrollPosition = window.scrollY + window.innerHeight / 3
 
       for (const section of sections) {
@@ -69,15 +68,6 @@ function App() {
 
   const renderMedia = (mediaPath) => {
     const isVideo = mediaPath.match(/\.(mp4|webm|ogg)$/i)
-    const is3DModel = mediaPath.match(/\.(fbx|obj|glb|gltf)$/i)
-    
-    if (is3DModel) {
-      return (
-        <div className="media-wrapper model-wrapper">
-          <ModelViewer modelPath={mediaPath} height="400px" />
-        </div>
-      )
-    }
     
     if (isVideo) {
       return (
@@ -138,13 +128,6 @@ function App() {
               onClick={(e) => { e.preventDefault(); scrollToSection('projects') }}
             >
               Projects
-            </a>
-            <a 
-              href="#models" 
-              className={activeSection === 'models' ? 'active' : ''}
-              onClick={(e) => { e.preventDefault(); scrollToSection('models') }}
-            >
-              3D Models
             </a>
             <a 
               href="#skills" 
@@ -267,52 +250,6 @@ function App() {
           </div>
         </div>
       </section>
-
-      {/* 3D Models Section */}
-      {portfolioData.models && (
-        <section id="models" className="models-section section">
-          <div className="container">
-            <h2 className="section-title">{portfolioData.models.title}</h2>
-            <div className="models-grid">
-              {portfolioData.models.list.map((model, index) => (
-                <div key={index} className="model-card">
-                  {model.modelPath && (
-                    <div className="model-viewer-wrapper">
-                      <ModelViewer modelPath={model.modelPath} height="400px" />
-                    </div>
-                  )}
-                  <div className="model-content">
-                    <div className="model-header">
-                      <h3 className="model-title">{model.title}</h3>
-                      <span className="model-year">{model.year}</span>
-                    </div>
-                    {model.description && (
-                      <p className="model-description">{model.description}</p>
-                    )}
-                    {model.specs && (
-                      <div className="model-specs">
-                        <h4>Technical Details:</h4>
-                        <ul>
-                          {model.specs.map((spec, i) => (
-                            <li key={i}>{spec}</li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
-                    {model.skills && (
-                      <div className="model-skills">
-                        {model.skills.map((skill, i) => (
-                          <span key={i} className="skill-tag">{skill}</span>
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
 
       {/* Skills Section */}
       <section id="skills" className="skills-section section">
