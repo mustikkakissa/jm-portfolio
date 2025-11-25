@@ -16,17 +16,41 @@
       "title": "Projects",
       "list": [
         {
+          "title": "IL-Palat",
+          "year": "2023",
+          "role": "Developer, Concept Originator",
+          "summary": "I originated the concept and implemented a social media–style content system for Iltalehti. The project began as a personal prototype and later became a production feature for both iOS and Android. The concept was recognized at the INMA Global Media Awards for Best New Digital Product (2nd place) and Best Innovation in Newsroom Transformation (3rd place).",
+          "skills": ["React Native", "UI/UX Design"],
+          "media": ["Palat/palat.mp4"]
+        },
+        {
+          "title": "IL Paras Sää Mobile Application",
+          "year": "2023",
+          "role": "Lead Developer, Software Architecture",
+          "summary": "As the lead developer, I designed the software architecture and implemented the majority of the features. I also coordinated with other developers during the project lifecycle.",
+          "skills": ["React Native", "GitHub Actions", "UI/UX", "Project Coordination"],
+          "media": ["Saa/saa.mp4"]
+        },
+        {
+          "title": "Telkku Mobile Application",
+          "year": "2024",
+          "role": "Lead Developer, Software Architecture",
+          "summary": "A follow-up project to IL Paras Sää, completed under a tighter schedule with similar technical architecture and design challenges.",
+          "skills": ["React Native", "GitHub Actions", "UI/UX", "Project Coordination"],
+          "media": ["Telkku/Telkku.mp4"]
+        },
+        {
           "title": "Horror-Survival Prototype",
           "year": "Work in progress",
           "role": "Game Design, Programming, 3D Art",
           "summary": "A personal Unity-based horror-survival project focusing on atmosphere, procedural generation, and scalable architecture. The game blends exploration, tension, and environmental storytelling inspired by Silent Hill and SCP aesthetics.",
-          "skills": ["Unity", "C#", "Blender", "Substance Painter"],
+          "skills": ["Unity", "C#"],
           "highlights": ["Procedural generation", "Day-night cycle", "Dynamic enemy behavior"],
           "media": ["https://youtu.be/eUhiYVZVugU"]
         },
         {
           "title": "Unity Terrain Feature Painter Tool",
-          "year": "2024",
+          "year": "2025",
           "role": "Tool Development, Editor Scripting",
           "summary": "Custom Unity Editor tool for procedural terrain decoration. Enables efficient placement of environmental features based on terrain properties, significantly speeding up level design workflow.",
           "skills": ["Unity", "C#", "Editor Scripting", "Procedural Generation"],
@@ -34,7 +58,7 @@
         },
         {
           "title": "Character Modeling Workflow",
-          "year": "2024",
+          "year": "2025",
           "role": "3D Sculpting, Retopology, Texturing",
           "summary": "Complete character creation pipeline from high-poly sculpting to game-ready asset. Demonstrates full understanding of topology, UV mapping, and optimization for real-time rendering.",
           "skills": ["Blender", "Sculpting", "Retopology", "UV Mapping"],
@@ -42,7 +66,7 @@
         },
         {
           "title": "Bunker - Hard Surface Modeling",
-          "year": "2024",
+          "year": "2025",
           "role": "3D Modeling, Texturing",
           "summary": "Modular bunker asset showcasing hard surface modeling techniques and PBR texturing workflow. From blocking out in Blender to detailed material work in Substance Painter.",
           "skills": ["Blender", "Substance Painter", "Hard Surface Modeling", "PBR Texturing"],
@@ -58,7 +82,7 @@
         },
         {
           "title": "Pier Environment Asset",
-          "year": "2024",
+          "year": "2025",
           "role": "3D Modeling, Environment Design",
           "summary": "Modular pier structure for maritime environments. Focused on creating reusable, game-optimized architecture pieces with proper edge flow and LOD considerations.",
           "skills": ["Blender", "Environment Modeling", "Modular Design"],
@@ -66,11 +90,19 @@
         },
         {
           "title": "Game Props - Flashlight & Scanner",
-          "year": "2024",
+          "year": "2025",
           "role": "3D Modeling, Texturing",
           "summary": "Interactive game props created for the horror prototype. Showcases ability to create detailed, game-ready assets with focus on material definition and functional design.",
           "skills": ["Substance Painter", "PBR Texturing", "Prop Modeling"],
           "media": ["Flashlight_substance.gif", "Scanner_substance.gif"]
+        },
+        {
+          "title": "RepRap 3D Printer Build",
+          "year": "2016",
+          "role": "Designer & Builder",
+          "summary": "Custom-built RepRap 3D printer from scratch using Arduino, RAMPS 1.4, and Marlin firmware. This project demonstrates hands-on technical problem-solving, combining mechanical design, electronics assembly, and firmware configuration. Fully functional printer capable of self-replication - the core philosophy of the RepRap project.",
+          "skills": ["Hardware Prototyping", "Electronics", "Mechanical Design", "Firmware Configuration"],
+          "media": ["3D_Printer/3d_1.jpg", "3D_Printer/3d_2.mp4", "3D_Printer/3d_3.jpg", "3D_Printer/3d_4.jpg", "3D_Printer/3d_5.jpg", "3D_Printer/3d_6.mp4", "3D_Printer/3d_7.jpeg", "3D_Printer/3d_8.jpg", "3D_Printer/3d_9.mp4"]
         }
       ]
     },

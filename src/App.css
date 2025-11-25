@@ -407,6 +407,18 @@ body {
   background: rgba(0, 0, 0, 0.5);
 }
 
+.play-icon {
+  font-size: 4rem;
+  color: white;
+  opacity: 0.9;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  transition: var(--transition);
+}
+
+.media-wrapper:hover .play-icon {
+  transform: scale(1.1);
+}
+
 .model-wrapper {
   cursor: default;
 }

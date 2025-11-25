@@ -113,7 +113,9 @@ function App() {
             <source src={mediaPath} type={`video/${mediaPath.split('.').pop()}`} />
             Your browser does not support the video tag.
           </video>
-          <div className="media-overlay"></div>
+          <div className="media-overlay">
+            <div className="play-icon">▶</div>
+          </div>
         </div>
       )
     }
