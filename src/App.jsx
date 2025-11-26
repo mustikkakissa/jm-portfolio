@@ -176,13 +176,13 @@ function App() {
             >
               Skills
             </a>
-            <a 
+            {/* <a 
               href="#motivation" 
               className={activeSection === 'motivation' ? 'active' : ''}
               onClick={(e) => { e.preventDefault(); scrollToSection('motivation') }}
             >
               Motivation
-            </a>
+            </a> */}
           </div>
         </div>
       </nav>
