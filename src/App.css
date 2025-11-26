@@ -370,6 +370,12 @@ body {
   gap: 0;
 }
 
+@media (min-width: 1024px) {
+  .project-card {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 .project-media-container {
   position: relative;
   background: #0a0a0a;
@@ -457,8 +463,9 @@ body {
 /* YouTube embed styles */
 .youtube-wrapper {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
-  height: 0;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
   cursor: default;
 }
 
