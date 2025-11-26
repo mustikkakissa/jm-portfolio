@@ -148,13 +148,13 @@ function App() {
         <div className="nav-content">
           <div className="nav-logo">{portfolioData.hero.name}</div>
           <div className="nav-links">
-            <a 
+            {/* <a 
               href="#hero" 
               className={activeSection === 'hero' ? 'active' : ''}
               onClick={(e) => { e.preventDefault(); scrollToSection('hero') }}
             >
               Home
-            </a>
+            </a> */}
             <a 
               href="#about" 
               className={activeSection === 'about' ? 'active' : ''}
@@ -188,7 +188,7 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section id="hero" className="hero-section">
+      {/* <section id="hero" className="hero-section">
         <div className="hero-content">
           <div className="hero-text">
             <h1 className="hero-name">{portfolioData.hero.name}</h1>
@@ -209,7 +209,7 @@ function App() {
             <span></span>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* About Section */}
       <section id="about" className="about-section section">
@@ -313,7 +313,7 @@ function App() {
       </section>
 
       {/* Motivation Section */}
-      <section id="motivation" className="motivation-section section">
+      {/* <section id="motivation" className="motivation-section section">
         <div className="container">
           <h2 className="section-title">{portfolioData.motivation.title}</h2>
           <div className="motivation-content">
@@ -322,7 +322,7 @@ function App() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Footer */}
       <footer className="footer">
