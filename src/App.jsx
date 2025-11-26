@@ -104,6 +104,12 @@ function App() {
     if (isVideo) {
       return (
         <div className="media-wrapper" onClick={() => openLightbox(mediaPath)}>
+          <div className="video-badge" aria-hidden="true">
+            <svg viewBox="0 0 24 24" focusable="false">
+              <path d="M5 4h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm6 4v8l5-4-5-4z" />
+            </svg>
+            <span>Video</span>
+          </div>
           <video 
             className="project-media" 
             loop 
