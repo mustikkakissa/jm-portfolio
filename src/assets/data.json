@@ -115,8 +115,7 @@
         "skills": [
           "Blender",
           "Substance Painter",
-          "Hard Surface Modeling",
-          "PBR Texturing"
+          "Hard Surface Modeling"
         ],
         "media": [
           "Bunker_blender_gif.gif",
@@ -127,7 +126,7 @@
         "title": "RIB Boat Model",
         "year": "2024",
         "role": "3D Modeling, Texturing",
-        "summary": "A realistic rigid inflatable boat model with attention to clean shapes, accurate detail, and believable materials. Demonstrates both modeling fundamentals and advanced PBR texturing.",
+        "summary": "A realistic rigid inflatable boat model with attention to clean shapes, accurate detail, and believable materials. The goal was to create a model that could be used in a game.",
         "skills": [
           "Blender",
           "Substance Painter",
@@ -142,7 +141,7 @@
         "title": "Pier Environment Asset",
         "year": "2025",
         "role": "3D Modeling, Environment Design",
-        "summary": "A modular pier structure designed for real-time environments. Built with reusable parts and proper edge flow, with performance considerations such as LODs.",
+        "summary": "A modular pier structure designed for real-time environments. Built for use in the horror prototype.",
         "skills": [
           "Blender",
           "Environment Modeling",
@@ -156,10 +155,10 @@
         "title": "Game Props Flashlight and Scanner",
         "year": "2025",
         "role": "3D Modeling, Texturing",
-        "summary": "Game-ready props created for the horror prototype. Focused on functional shapes, readable silhouettes, and accurate PBR materials suited for low-light conditions.",
+        "summary": "Game-ready props created for the horror prototype. Focused on low poly count and accurate materials suited for low-light conditions.",
         "skills": [
+          "Blender",
           "Substance Painter",
-          "PBR Texturing",
           "Prop Modeling"
         ],
         "media": [
