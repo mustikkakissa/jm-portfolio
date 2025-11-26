@@ -1,15 +1,15 @@
 {
   "hero": {
     "name": "Jere M.",
-    "title": "Software engineer transitioning into game development",
+    "title": "Software engineer moving into game development",
     "cta": "View my work"
   },
   "about": {
     "title": "About Me",
     "paragraphs": [
-      "I am a software engineer with a background in mechanical and ICT engineering. I hold degrees in Mechanical Engineering (2013–2016) and ICT Engineering (2019–2022).",
-      "I spent four years at Etteplan working on structural and mechanical design for paper machine components. For the past five years I have focused on mobile development at Alma Media in the Iltalehti application team.",
-      "Although my career has centered on mobile products, my primary interest is creating interactive experiences that combine atmosphere, systems, and design. Game development allows me to merge technical problem solving with creative expression."
+      "I am a software engineer with a background in mechanical and ICT engineering. I have degrees in Mechanical Engineering (2013–2016) and ICT Engineering (2019–2022).",
+      "I spent four years at Etteplan working on structural and mechanical design for paper machine components. For the past five years I have been working on mobile development at Alma Media in the Iltalehti application team.",
+      "Although my career has centered on mobile development, my primary interest is creating interactive experiences that combine atmosphere, systems and design. Game development allows me to combine technical problem solving with creative expression."
     ]
   },
   "projects": {
@@ -19,10 +19,10 @@
         "title": "IL-Palat",
         "year": "2023",
         "role": "Developer, Concept Originator",
-        "summary": "I created the initial concept and built a short-form content system for Iltalehti. The project began as a personal prototype and later became a production feature on iOS and Android. It received recognition at the INMA Global Media Awards with placements in Best New Digital Product and Best Innovation in Newsroom Transformation.",
+        "summary": "I created the initial concept and built a short-form content system for Iltalehti. The project began as a personal prototype and later became a production feature on Iltalehti platforms. It received recognition at the INMA Global Media Awards with placements in Best New Digital Product and Best Innovation in Newsroom Transformation.",
         "skills": [
           "React Native",
-          "UI/UX Design"
+          "Mobile Development"
         ],
         "media": [
           "Palat/palat.mp4"
@@ -32,11 +32,11 @@
         "title": "IL Paras Sää Mobile Application",
         "year": "2023",
         "role": "Lead Developer, Software Architecture",
-        "summary": "I led development and designed the application architecture. I implemented most of the core features and coordinated development work and integration with design and backend teams.",
+        "summary": "I led application development and designed the application architecture. I implemented most of the core features and coordinated development work.",
         "skills": [
           "React Native",
           "GitHub Actions",
-          "UI/UX",
+          "Mobile Development",
           "Project Coordination"
         ],
         "media": [
@@ -47,11 +47,11 @@
         "title": "Telkku Mobile Application",
         "year": "2024",
         "role": "Lead Developer, Software Architecture",
-        "summary": "A follow-up project to IL Paras Sää. I led development and system architecture under a tight schedule, ensuring consistent performance and maintainable feature development across platforms.",
+        "summary": "A follow-up project to IL Paras Sää. I led application development and application architecture under a tighter schedule. I implemented most of the core features and coordinated other development work.",
         "skills": [
           "React Native",
           "GitHub Actions",
-          "UI/UX",
+          "Mobile Development",
           "Project Coordination"
         ],
         "media": [
@@ -62,19 +62,21 @@
         "title": "Horror-Survival Prototype",
         "year": "Work in progress",
         "role": "Game Design, Programming, 3D Art",
-        "summary": "A personal first-person horror project built in Unity with a focus on atmosphere, procedural systems, and systemic gameplay. The project explores environmental storytelling, tension, and scalable game architecture.",
+        "summary": "A personal first-person horror project built in Unity. The project explores horror elements combined with procedural systems and a day-night cycle. The code architecture is implemented using a MVC(S) pattern to ensure maintainability and scalability. Still quite buggy and not much to show but the main loop is playable.",
         "skills": [
           "Unity",
           "C#"
         ],
         "highlights": [
           "Unity 3D",
+          "MVC",
           "Procedural generation",
           "Day-night cycle",
           "Dynamic enemy behavior"
         ],
         "media": [
-          "https://youtu.be/eUhiYVZVugU"
+          "DayNightCycle.gif",
+          "https://youtu.be/SFf58rEVdOM"
         ]
       },
       {
@@ -96,14 +98,16 @@
         "title": "Character Modeling Workflow",
         "year": "2025",
         "role": "3D Sculpting, Retopology, Texturing",
-        "summary": "A full character asset workflow covering sculpting, retopology, UVs, and texturing for real-time rendering. The goal was to learn each stage required to create clean and optimized game-ready characters.",
+        "summary": "A full character asset workflow covering sculpting, retopology, UVs, and texturing for real-time rendering. The goal was to learn each stage required to create clean and optimized game-ready characters. Built in Blender and textured in Substance Painter.",
         "skills": [
           "Blender",
           "Sculpting",
           "Retopology",
-          "UV Mapping"
+          "UV Mapping",
+          "Substance Painter"
         ],
         "media": [
+          "Character_unity.png",
           "Character_blender.mp4"
         ]
       },
@@ -111,7 +115,7 @@
         "title": "Bunker Hard Surface Modeling",
         "year": "2025",
         "role": "3D Modeling, Texturing",
-        "summary": "A modular bunker environment piece focusing on hard surface modeling, clean topology, and a PBR texturing workflow. Built from blockout to final asset in Blender and Substance Painter.",
+        "summary": "A bunker environment entrance focusing on hard surface modeling, clean topology, and texturing. Built in Blender and textured in Substance Painter.",
         "skills": [
           "Blender",
           "Substance Painter",
@@ -126,13 +130,14 @@
         "title": "RIB Boat Model",
         "year": "2024",
         "role": "3D Modeling, Texturing",
-        "summary": "A realistic rigid inflatable boat model with attention to clean shapes, accurate detail, and believable materials. The goal was to create a model that could be used in a game.",
+        "summary": "A realistic rigid inflatable boat model with attention to clean shapes and believable materials. The goal was to create a model that could be used in a game. Built in Blender and textured in Substance Painter.",
         "skills": [
           "Blender",
           "Substance Painter",
           "Hard Surface Modeling"
         ],
         "media": [
+          "RIB_unity.png",
           "RIB_blender.gif",
           "RIB_Substance.gif"
         ]
@@ -141,21 +146,21 @@
         "title": "Pier Environment Asset",
         "year": "2025",
         "role": "3D Modeling, Environment Design",
-        "summary": "A modular pier structure designed for real-time environments. Built for use in the horror prototype.",
+        "summary": "A pier structure designed for game environments. Built in Blender and textured in Substance Painter.",
         "skills": [
           "Blender",
-          "Environment Modeling",
-          "Modular Design"
+          "Environment Modeling"
         ],
         "media": [
+          "Pier_unity.png",
           "Pier_blender.gif"
         ]
       },
       {
-        "title": "Game Props Flashlight and Scanner",
+        "title": "Game Props - Flashlight and Scanner",
         "year": "2025",
         "role": "3D Modeling, Texturing",
-        "summary": "Game-ready props created for the horror prototype. Focused on low poly count and accurate materials suited for low-light conditions.",
+        "summary": "Game-ready props created for the horror prototype. Focused on low poly count and accurate materials suited for low-light conditions. Built in Blender and textured in Substance Painter.",
         "skills": [
           "Blender",
           "Substance Painter",
@@ -204,26 +209,23 @@
       "Game Development": [
         "Unity",
         "Gameplay Programming",
-        "Procedural Generation"
-      ],
-      "3D Art": [
-        "Blender",
-        "Substance Painter",
+        "Procedural Generation",
         "Retopology",
         "Texturing"
       ],
-      "Project Management": [
-        "Agile",
-        "Team Coordination",
-        "CI/CD",
-        "Version Control (Git)"
+      "Software": [
+        "Autodesk Inventor",
+        "Fusion 360",
+        "3DS Max",
+        "Blender",
+        "Substance Painter"
       ]
     }
   },
   "motivation": {
     "title": "Motivation",
     "paragraphs": [
-      "I want to join Aalto's Game Design and Development programme because it aligns with my strengths in engineering and creative problem solving. My background gives me a strong foundation ..."
+      "I want to join Aalto's Game Design and Development programme because it aligns with my strengths in engineering and creative problem solving. My background gives me a strong foundation in software development and 3D modeling (CAD and mesh modeling)."
     ]
   }
 }
