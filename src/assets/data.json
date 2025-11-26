@@ -1,125 +1,230 @@
 {
-    "hero": {
-      "name": "Jere M.",
-      "title": "Senior Software Engineer exploring game development",
-      "cta": "View my work"
-    },
-    "about": {
-      "title": "About Me",
-      "paragraphs": [
-        "I’m a software engineer with a multidisciplinary background in both mechanical and ICT engineering. I have degrees in Mechanical Engineering (2013–2016) and ICT Engineering (2019–2022).",
-        "I have four years of experience in mechanical design at Etteplan, where I worked on tecnical design of paper mill machines, and five years at Alma Media in the Iltalehti mobile application team.",
-        "While my professional focus has been in mobile development, my true passion lies in creating immersive experiences that combine storytelling, technology, and interactivity. Game development offers the ideal platform to bring these worlds together."
-      ]
-    },
-    "projects": {
-      "title": "Projects",
-      "list": [
-        {
-          "title": "IL-Palat",
-          "year": "2023",
-          "role": "Developer, Concept Originator",
-          "summary": "I originated the concept and implemented a social media–style content system for Iltalehti. The project began as a personal prototype and later became a production feature for both iOS and Android. The concept was recognized at the INMA Global Media Awards for Best New Digital Product (2nd place) and Best Innovation in Newsroom Transformation (3rd place).",
-          "skills": ["React Native", "UI/UX Design"],
-          "media": ["Palat/palat.mp4"]
-        },
-        {
-          "title": "IL Paras Sää Mobile Application",
-          "year": "2023",
-          "role": "Lead Developer, Software Architecture",
-          "summary": "As the lead developer, I designed the software architecture and implemented the majority of the features. I also coordinated with other developers during the project lifecycle.",
-          "skills": ["React Native", "GitHub Actions", "UI/UX", "Project Coordination"],
-          "media": ["Saa/saa.mp4"]
-        },
-        {
-          "title": "Telkku Mobile Application",
-          "year": "2024",
-          "role": "Lead Developer, Software Architecture",
-          "summary": "A follow-up project to IL Paras Sää, completed under a tighter schedule with similar technical architecture and design challenges.",
-          "skills": ["React Native", "GitHub Actions", "UI/UX", "Project Coordination"],
-          "media": ["Telkku/Telkku.mp4"]
-        },
-        {
-          "title": "Horror-Survival Prototype",
-          "year": "Work in progress",
-          "role": "Game Design, Programming, 3D Art",
-          "summary": "A personal Unity-based horror-survival project focusing on atmosphere, procedural generation, and scalable architecture. The game blends exploration, tension, and environmental storytelling inspired by Silent Hill and SCP aesthetics.",
-          "skills": ["Unity", "C#"],
-          "highlights": ["Procedural generation", "Day-night cycle", "Dynamic enemy behavior"],
-          "media": ["https://youtu.be/eUhiYVZVugU"]
-        },
-        {
-          "title": "Unity Terrain Feature Painter Tool",
-          "year": "2025",
-          "role": "Tool Development, Editor Scripting",
-          "summary": "Custom Unity Editor tool for procedural terrain decoration. Enables efficient placement of environmental features based on terrain properties, significantly speeding up level design workflow.",
-          "skills": ["Unity", "C#", "Editor Scripting", "Procedural Generation"],
-          "media": ["https://youtu.be/LKUeW6k7UQo"]
-        },
-        {
-          "title": "Character Modeling Workflow",
-          "year": "2025",
-          "role": "3D Sculpting, Retopology, Texturing",
-          "summary": "Complete character creation pipeline from high-poly sculpting to game-ready asset. Demonstrates full understanding of topology, UV mapping, and optimization for real-time rendering.",
-          "skills": ["Blender", "Sculpting", "Retopology", "UV Mapping"],
-          "media": ["Character_blender.mp4"]
-        },
-        {
-          "title": "Bunker - Hard Surface Modeling",
-          "year": "2025",
-          "role": "3D Modeling, Texturing",
-          "summary": "Modular bunker asset showcasing hard surface modeling techniques and PBR texturing workflow. From blocking out in Blender to detailed material work in Substance Painter.",
-          "skills": ["Blender", "Substance Painter", "Hard Surface Modeling", "PBR Texturing"],
-          "media": ["Bunker_blender_gif.gif", "Bunker_substance_gif.gif"]
-        },
-        {
-          "title": "RIB Boat Model",
-          "year": "2024",
-          "role": "3D Modeling, Texturing",
-          "summary": "Realistic rigid inflatable boat with attention to detail in both modeling and material definition. Complete workflow demonstrating clean topology and realistic wear and tear in texturing.",
-          "skills": ["Blender", "Substance Painter", "Hard Surface Modeling"],
-          "media": ["RIB_blender.gif", "RIB_Substance.gif"]
-        },
-        {
-          "title": "Pier Environment Asset",
-          "year": "2025",
-          "role": "3D Modeling, Environment Design",
-          "summary": "Modular pier structure for maritime environments. Focused on creating reusable, game-optimized architecture pieces with proper edge flow and LOD considerations.",
-          "skills": ["Blender", "Environment Modeling", "Modular Design"],
-          "media": ["Pier_blender.gif"]
-        },
-        {
-          "title": "Game Props - Flashlight & Scanner",
-          "year": "2025",
-          "role": "3D Modeling, Texturing",
-          "summary": "Interactive game props created for the horror prototype. Showcases ability to create detailed, game-ready assets with focus on material definition and functional design.",
-          "skills": ["Substance Painter", "PBR Texturing", "Prop Modeling"],
-          "media": ["Flashlight_substance.gif", "Scanner_substance.gif"]
-        },
-        {
-          "title": "RepRap 3D Printer Build",
-          "year": "2016",
-          "role": "Designer & Builder",
-          "summary": "Custom-built RepRap 3D printer from scratch using Arduino, RAMPS 1.4, and Marlin firmware. This project demonstrates hands-on technical problem-solving, combining mechanical design, electronics assembly, and firmware configuration. Fully functional printer capable of self-replication - the core philosophy of the RepRap project.",
-          "skills": ["Hardware Prototyping", "Electronics", "Mechanical Design", "Firmware Configuration"],
-          "media": ["3D_Printer/3d_1.jpg", "3D_Printer/3d_2.mp4", "3D_Printer/3d_3.jpg", "3D_Printer/3d_4.jpg", "3D_Printer/3d_5.jpg", "3D_Printer/3d_6.mp4", "3D_Printer/3d_7.jpeg", "3D_Printer/3d_8.jpg", "3D_Printer/3d_9.mp4"]
-        }
-      ]
-    },
-    "skills": {
-      "title": "Skills",
-      "categories": {
-        "Programming": ["React Native", "JavaScript", "TypeScript", "C#", "Python"],
-        "Game Development": ["Unity", "Gameplay Programming", "Procedural Generation"],
-        "3D Art": ["Blender", "Substance Painter", "Retopology", "Texturing"],
-        "Project Management": ["Agile", "Team Coordination", "CI/CD", "Version Control (Git)"]
+  "hero": {
+    "name": "Jere M.",
+    "title": "Software engineer transitioning into game development",
+    "cta": "View my work"
+  },
+  "about": {
+    "title": "About Me",
+    "paragraphs": [
+      "I am a software engineer with a background in mechanical and ICT engineering. I hold degrees in Mechanical Engineering (2013–2016) and ICT Engineering (2019–2022).",
+      "I spent four years at Etteplan working on structural and mechanical design for paper machine components. For the past five years I have focused on mobile development at Alma Media in the Iltalehti application team.",
+      "Although my career has centered on mobile products, my primary interest is creating interactive experiences that combine atmosphere, systems, and design. Game development allows me to merge technical problem solving with creative expression."
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "list": [
+      {
+        "title": "IL-Palat",
+        "year": "2023",
+        "role": "Developer, Concept Originator",
+        "summary": "I created the initial concept and built a short-form content system for Iltalehti. The project began as a personal prototype and later became a production feature on iOS and Android. It received recognition at the INMA Global Media Awards with placements in Best New Digital Product and Best Innovation in Newsroom Transformation.",
+        "skills": [
+          "React Native",
+          "UI/UX Design"
+        ],
+        "media": [
+          "Palat/palat.mp4"
+        ]
+      },
+      {
+        "title": "IL Paras Sää Mobile Application",
+        "year": "2023",
+        "role": "Lead Developer, Software Architecture",
+        "summary": "I led development and designed the application architecture. I implemented most of the core features and coordinated development work and integration with design and backend teams.",
+        "skills": [
+          "React Native",
+          "GitHub Actions",
+          "UI/UX",
+          "Project Coordination"
+        ],
+        "media": [
+          "Saa/saa.mp4"
+        ]
+      },
+      {
+        "title": "Telkku Mobile Application",
+        "year": "2024",
+        "role": "Lead Developer, Software Architecture",
+        "summary": "A follow-up project to IL Paras Sää. I led development and system architecture under a tight schedule, ensuring consistent performance and maintainable feature development across platforms.",
+        "skills": [
+          "React Native",
+          "GitHub Actions",
+          "UI/UX",
+          "Project Coordination"
+        ],
+        "media": [
+          "Telkku/Telkku.mp4"
+        ]
+      },
+      {
+        "title": "Horror-Survival Prototype",
+        "year": "Work in progress",
+        "role": "Game Design, Programming, 3D Art",
+        "summary": "A personal first-person horror project built in Unity with a focus on atmosphere, procedural systems, and systemic gameplay. The project explores environmental storytelling, tension, and scalable game architecture.",
+        "skills": [
+          "Unity",
+          "C#"
+        ],
+        "highlights": [
+          "Unity 3D",
+          "Procedural generation",
+          "Day-night cycle",
+          "Dynamic enemy behavior"
+        ],
+        "media": [
+          "https://youtu.be/eUhiYVZVugU"
+        ]
+      },
+      {
+        "title": "Unity Terrain Feature Painter Tool",
+        "year": "2025",
+        "role": "Tool Development, Editor Scripting",
+        "summary": "A Unity Editor tool that automates terrain decoration based on height, slope, texture, and biome rules. Built to speed up level design workflows and ensure consistent placement of environmental elements.",
+        "skills": [
+          "Unity",
+          "C#",
+          "Editor Scripting",
+          "Procedural Generation"
+        ],
+        "media": [
+          "https://youtu.be/LKUeW6k7UQo"
+        ]
+      },
+      {
+        "title": "Character Modeling Workflow",
+        "year": "2025",
+        "role": "3D Sculpting, Retopology, Texturing",
+        "summary": "A full character asset workflow covering sculpting, retopology, UVs, and texturing for real-time rendering. The goal was to learn each stage required to create clean and optimized game-ready characters.",
+        "skills": [
+          "Blender",
+          "Sculpting",
+          "Retopology",
+          "UV Mapping"
+        ],
+        "media": [
+          "Character_blender.mp4"
+        ]
+      },
+      {
+        "title": "Bunker Hard Surface Modeling",
+        "year": "2025",
+        "role": "3D Modeling, Texturing",
+        "summary": "A modular bunker environment piece focusing on hard surface modeling, clean topology, and a PBR texturing workflow. Built from blockout to final asset in Blender and Substance Painter.",
+        "skills": [
+          "Blender",
+          "Substance Painter",
+          "Hard Surface Modeling",
+          "PBR Texturing"
+        ],
+        "media": [
+          "Bunker_blender_gif.gif",
+          "Bunker_substance_gif.gif"
+        ]
+      },
+      {
+        "title": "RIB Boat Model",
+        "year": "2024",
+        "role": "3D Modeling, Texturing",
+        "summary": "A realistic rigid inflatable boat model with attention to clean shapes, accurate detail, and believable materials. Demonstrates both modeling fundamentals and advanced PBR texturing.",
+        "skills": [
+          "Blender",
+          "Substance Painter",
+          "Hard Surface Modeling"
+        ],
+        "media": [
+          "RIB_blender.gif",
+          "RIB_Substance.gif"
+        ]
+      },
+      {
+        "title": "Pier Environment Asset",
+        "year": "2025",
+        "role": "3D Modeling, Environment Design",
+        "summary": "A modular pier structure designed for real-time environments. Built with reusable parts and proper edge flow, with performance considerations such as LODs.",
+        "skills": [
+          "Blender",
+          "Environment Modeling",
+          "Modular Design"
+        ],
+        "media": [
+          "Pier_blender.gif"
+        ]
+      },
+      {
+        "title": "Game Props Flashlight and Scanner",
+        "year": "2025",
+        "role": "3D Modeling, Texturing",
+        "summary": "Game-ready props created for the horror prototype. Focused on functional shapes, readable silhouettes, and accurate PBR materials suited for low-light conditions.",
+        "skills": [
+          "Substance Painter",
+          "PBR Texturing",
+          "Prop Modeling"
+        ],
+        "media": [
+          "Flashlight_substance.gif",
+          "Scanner_substance.gif"
+        ]
+      },
+      {
+        "title": "RepRap 3D Printer Build",
+        "year": "2016",
+        "role": "Designer and Builder",
+        "summary": "A custom RepRap-style 3D printer built from individual components. The work combined mechanical design, electronics, and firmware setup using Arduino, RAMPS 1.4, and Marlin. The final printer was fully functional and capable of printing replacement parts.",
+        "skills": [
+          "Hardware Prototyping",
+          "Electronics",
+          "Mechanical Design",
+          "Firmware Configuration"
+        ],
+        "media": [
+          "3D_Printer/3d_1.jpg",
+          "3D_Printer/3d_2.mp4",
+          "3D_Printer/3d_3.jpg",
+          "3D_Printer/3d_4.jpg",
+          "3D_Printer/3d_5.jpg",
+          "3D_Printer/3d_6.mp4",
+          "3D_Printer/3d_7.jpeg",
+          "3D_Printer/3d_8.jpg",
+          "3D_Printer/3d_9.mp4"
+        ]
       }
-    },
-    "motivation": {
-      "title": "Motivation",
-      "paragraphs": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "categories": {
+      "Programming": [
+        "React Native",
+        "JavaScript",
+        "TypeScript",
+        "C#",
+        "Python"
+      ],
+      "Game Development": [
+        "Unity",
+        "Gameplay Programming",
+        "Procedural Generation"
+      ],
+      "3D Art": [
+        "Blender",
+        "Substance Painter",
+        "Retopology",
+        "Texturing"
+      ],
+      "Project Management": [
+        "Agile",
+        "Team Coordination",
+        "CI/CD",
+        "Version Control (Git)"
       ]
     }
+  },
+  "motivation": {
+    "title": "Motivation",
+    "paragraphs": [
+      "I want to join Aalto's Game Design and Development programme because it aligns with my strengths in engineering and creative problem solving. My background gives me a strong foundation ..."
+    ]
   }
-  
+}
