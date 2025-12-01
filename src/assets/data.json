@@ -19,7 +19,7 @@
         "title": "IL-Palat",
         "year": "2023",
         "role": "Developer, Concept Originator",
-        "summary": "I created the initial concept and built a short-form content system for Iltalehti. The project began as a personal prototype and later became a production feature on Iltalehti platforms. It received recognition at the INMA Global Media Awards with placements in Best New Digital Product and Best Innovation in Newsroom Transformation.",
+        "summary": "I created the initial concept and built a short-form video content system for Iltalehti. The project began as a personal prototype and later became a production feature on Iltalehti platforms. It received recognition at the INMA Global Media Awards with placements in Best New Digital Product and Best Innovation in Newsroom Transformation.",
         "skills": [
           "React Native",
           "Mobile Development"
@@ -32,7 +32,7 @@
         "title": "IL Paras Sää Mobile Application",
         "year": "2023",
         "role": "Lead Developer, Software Architecture",
-        "summary": "I led application development and designed the application architecture. I implemented most of the core features and coordinated development work.",
+        "summary": "I led application development and designed the application architecture. I implemented most of the core features and coordinated development work. Core features were built using React Native. App features include location based weather forecasts, weather alerts and a weather map with precipitation, heat and wind speeds. Weather map was made using OpenStreetMaps data for the base map and the tiling using Leaflet with weather tiles provided by FMI and Foreca.",
         "skills": [
           "React Native",
           "GitHub Actions",
@@ -47,7 +47,7 @@
         "title": "Telkku Mobile Application",
         "year": "2024",
         "role": "Lead Developer, Software Architecture",
-        "summary": "A follow-up project to IL Paras Sää. I led application development and application architecture under a tighter schedule. I implemented most of the core features and coordinated other development work.",
+        "summary": "A follow-up project to IL Paras Sää. I led application development and designed the architecture under a tighter schedule. I implemented most of the core features and coordinated development work. Core features were built using React Native.",
         "skills": [
           "React Native",
           "GitHub Actions",
@@ -61,18 +61,17 @@
       {
         "title": "Horror-Survival Prototype",
         "year": "Work in progress",
-        "role": "Game Design, Programming, 3D Art",
-        "summary": "A personal first-person horror project built in Unity. The project explores horror elements combined with procedural systems and a day-night cycle. The code architecture is implemented using a MVC(S) pattern to ensure maintainability and scalability. Still quite buggy and not much to show but the main loop is playable.",
+        "role": "Game Design, Developer, 3D Modeling",
+        "summary": "A personal first-person horror project built with Unity. The project explores horror elements combined with procedural systems and a day-night cycle. The code architecture is implemented using a MVC(S) pattern to ensure maintainability and scalability. Still quite buggy and not much to show, but the main loop is playable.",
         "skills": [
           "Unity",
           "C#"
         ],
         "highlights": [
           "Unity 3D",
-          "MVC",
+          "MVC(S) pattern",
           "Procedural generation",
-          "Day-night cycle",
-          "Dynamic enemy behavior"
+          "Day-night cycle"
         ],
         "media": [
           "https://youtu.be/SFf58rEVdOM"
@@ -81,8 +80,8 @@
       {
         "title": "Unity Terrain Feature Painter Tool",
         "year": "2025",
-        "role": "Tool Development, Editor Scripting",
-        "summary": "A Unity Editor tool that automates terrain decoration based on height, slope, texture, and biome rules. Built to speed up level design workflows and ensure consistent placement of environmental elements.",
+        "role": "Developer",
+        "summary": "A Unity Editor tool that automates terrain decoration based on height, slope, texture, and biome rules. Also supports mask painting for more precise control. Built to speed up level design workflows and ensure consistent placement of environmental elements. Can create large amounts of game objects using GPU instancing and collider proxies to reduce the loading time.",
         "skills": [
           "Unity",
           "C#",
@@ -94,10 +93,10 @@
         ]
       },
       {
-        "title": "Character Modeling Workflow",
+        "title": "Character Modeling",
         "year": "2025",
         "role": "3D Sculpting, Retopology, Texturing",
-        "summary": "A full character asset workflow covering sculpting, retopology, UVs, and texturing for real-time rendering. The goal was to learn each stage required to create clean and optimized game-ready characters. Built in Blender and textured in Substance Painter.",
+        "summary": "A full character creation covering sculpting, retopology, UVs, and texturing. The goal was to learn each stage required to create clean and optimized game-ready characters. Built with Blender and textured with Substance Painter.",
         "skills": [
           "Blender",
           "Sculpting",
@@ -114,7 +113,7 @@
         "title": "Bunker Hard Surface Modeling",
         "year": "2025",
         "role": "3D Modeling, Texturing",
-        "summary": "A bunker environment entrance focusing on hard surface modeling, clean topology, and texturing. Built in Blender and textured in Substance Painter.",
+        "summary": "A bunker environment entrance focusing on hard surface modeling, clean topology, and texturing. Built with Blender and textured with Substance Painter.",
         "skills": [
           "Blender",
           "Substance Painter",
@@ -129,7 +128,7 @@
         "title": "RIB Boat Model",
         "year": "2024",
         "role": "3D Modeling, Texturing",
-        "summary": "A realistic rigid inflatable boat model with attention to clean shapes and believable materials. The goal was to create a model that could be used in a game. Built in Blender and textured in Substance Painter.",
+        "summary": "A realistic rigid inflatable boat model with attention to clean shapes and believable materials. The goal was to create a model that could be used in a game. Built with Blender and textured with Substance Painter.",
         "skills": [
           "Blender",
           "Substance Painter",
@@ -144,8 +143,8 @@
       {
         "title": "Pier Environment Asset",
         "year": "2025",
-        "role": "3D Modeling, Environment Design",
-        "summary": "A pier structure designed for game environments. Built in Blender and textured in Substance Painter.",
+        "role": "3D Modeling, Texturing",
+        "summary": "A pier structure designed for game environments. Built with Blender and textured with Substance Painter.",
         "skills": [
           "Blender",
           "Environment Modeling"
@@ -159,7 +158,7 @@
         "title": "Game Props - Flashlight and Scanner",
         "year": "2025",
         "role": "3D Modeling, Texturing",
-        "summary": "Game-ready props created for the horror prototype. Focused on low poly count and accurate materials suited for low-light conditions. Built in Blender and textured in Substance Painter.",
+        "summary": "Game-ready props created for the horror prototype. Focused on low poly count and believable materials. Built with Blender and textured with Substance Painter.",
         "skills": [
           "Blender",
           "Substance Painter",
@@ -174,7 +173,7 @@
         "title": "RepRap 3D Printer Build",
         "year": "2016",
         "role": "Designer and Builder",
-        "summary": "A custom RepRap-style 3D printer built from individual components. The work combined mechanical design, electronics, and firmware setup using Arduino, RAMPS 1.4, and Marlin. The final printer was fully functional and capable of printing replacement parts.",
+        "summary": "A custom RepRap-style 3D printer built from individual components. The work combined mechanical design, electronics, and firmware setup using Arduino, RAMPS 1.4 and Marlin. The final product was a fully functional and working 3D printer.",
         "skills": [
           "Hardware Prototyping",
           "Electronics",
